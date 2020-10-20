@@ -1,0 +1,129 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: gray;
+}
+
+.msg{
+	width: 50vw;
+	background-color: transparent;
+	margin-left: 25%;
+	text-align: center;
+	font-size: 1.2em;
+}
+
+.login-reg-container{
+	position: relative;
+	width: 50vw;
+	transform: translate(50%, 10%);
+	background-color: white;
+	text-align: center;
+	border-radius: 5px;
+	padding: 1px 0 20px 0;
+}
+
+.links a{
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+	width: 50%;
+	float: left;
+	padding:15px 0 15px 0;
+	margin-bottom: 30px;
+	font-size: 1.5em;
+}
+
+.links a:hover{
+	background-color: #e8e8e8;
+}
+
+.links a.active{
+	border-bottom: 4px solid #3c848c;
+}
+
+form input{
+	width: 90%;
+	margin-bottom: 10px;
+	padding: 10px;
+	border: 2px solid gray;
+	border-radius: 5px;
+}
+
+.submit{
+	background-color: #4c9fa8;
+	width: 40%;
+	border: none;
+	outline: none;
+}
+
+.submit:hover{
+	background-color: #3c848c;
+	cursor: pointer;
+}
+
+.base{
+	position: relative;
+	background-color: black;
+	color: white;
+	overflow: hidden;
+	padding: 0 10px 0 10px;
+}
+
+.base h2{
+	position: absolute;
+	display: inline-block;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.base ul{
+	display: inline-block;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	color:white;
+	float: right;
+}
+
+.base li{
+	float: right;
+}
+
+.base li a{
+	text-decoration:none;
+	color:white;
+	padding:15px;
+	display:inline-block;
+}
+
+.base li a:hover{
+	background-color: #242424;
+}
+
+.home-msg{
+	margin-top: 50px;
+	font-size: 3em;
+}
+
+.acc-details{
+	background-color: white;
+	border-radius: 5px;
+	margin: 30px 0 0 50px;
+	display: inline-block;
+	padding: 10px;
+}
+
+.acc-details p{
+	padding:20px 10px 0 10px;
+	font-weight: bold;
+}
+
+.acc-details table, th, td{
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 10px;
+}

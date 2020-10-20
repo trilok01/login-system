@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>{{the_title}}</title>
+		<link rel='stylesheet' href='../static/style.css' />
+	</head>
+	<body>
+		<div class="base">
+			<h2>Websie Title</h2>
+			<ul>
+				<li><a href="{{url_for('logout')}}">Logout</a></li>
+				<li><a href="{{url_for('profile')}}">Profile</a></li>
+				<li><a href="{{url_for('home')}}">Home</a></li>
+			</ul>
+		</div>
+		{% block body %}
+		{% endblock %}
+	</body>
+</html>
